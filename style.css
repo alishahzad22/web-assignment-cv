@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nvbar {
+  width: 100%;
+  height: 150vh;
+  background: gainsboro
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: black;
+  position: relative;
+  padding: 5px 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: rgb(224, 39, 70);
+}
+
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 0;
+  width: 0;
+  bottom: 0;
+  background: rgb(224, 39, 70);
+  transition: 0.3s;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+
+.infoContainer {
+
+ 
+  width: 80vw;
+  margin: auto;
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devpic {
+
+  margin-top: 50px;
+
+}
+
+.devinfo {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica;
+  margin-top: -40px;
+}
+
+
+
+.contactform {
+  font-family: serif;
+  margin-left: 350px;
+
+}
+
+.contactform h1 {
+  font-family: sans-serif;
+  padding-top: 100px;
+
+}
+
+.contactform form div input {
+  padding: 3px;
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0;
+
+}
+
+.contactform form div textarea {
+  padding: 3px;
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0;
+}
+
+.contactform form div {
+  padding:5 px 0;
+
+}
+
+
+#h2 {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 100px;
+
+}
+
+
+#h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.main {
+  margin-left: 250px;
+  height: 100vh;
+}
+
+.main2 {
+  margin-top: -60px;
+}
